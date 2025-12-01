@@ -1,0 +1,26 @@
+/* style.css */
+
+body {
+    /* ページ全体の背景色 */
+    background-color: #f0f0f0;
+    /* ページの高さを最低限確保 */
+    min-height: 100vh; 
+    /* 余白をリセット */
+    margin: 0;
+    /* フォント設定 (日本語優先) */
+    font-family: "MS Gothic", "Hiragino Kaku Gothic Pro", Meiryo, sans-serif;
+    /* flexboxを使ってキャンバスを画面中央に配置 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+canvas {
+    /* キャンバスの境界線（オプション） */
+    border: 3px solid #666;
+    /* 影をつけて立体感を出す（オプション） */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* タイトル画面のボタンにカーソルが乗ったときのスタイルを明確にするため、
+   p5.jsの描画とは別に、CSSでカーソルを変更することも可能です。 */
