@@ -201,7 +201,7 @@ function drawTitleScreen() {
   fill(255);
   textSize(24);
   text("将棋のシミュレーターを作ってみたよ！", width / 2, 250);
-  text("CPUの不規則な駒さばきに君はついてこれるかな？", width / 2, 300);
+  text("みんなで一緒に将棋やろうぜ！", width / 2, 300);
 
   // スタートボタン
   const btnX = 350, btnY = 400, btnW = 150, btnH = 50;
